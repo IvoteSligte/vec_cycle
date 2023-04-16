@@ -1,6 +1,6 @@
 use std::ops::{Deref, DerefMut};
 
-/// Cycles over a vector as if it were an iterator. That's it.
+/// Cycles over a `Vec` as if it were an iterator, allowing mutation of the underlying data. That's it.
 #[derive(Clone)]
 pub struct VecCycle<T: Clone> {
     index: usize,

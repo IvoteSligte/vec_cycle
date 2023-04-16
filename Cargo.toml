@@ -3,7 +3,7 @@ name = "vec_cycle"
 version = "0.2.0"
 edition = "2021"
 license = "MIT"
-description = "A struct that cycles over a Vec<T>, that's it."
+description = "A struct that cycles over a Vec<T>, allowing the underlying Vec<T> to be mutated safely, that's it."
 repository = "https://github.com/IvoteSligte/vec_cycle/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
